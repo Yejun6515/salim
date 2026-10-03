@@ -1,0 +1,21 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>살림치트키 제품 바로가기</title><meta name="robots" content="noindex"><link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"><style>
+*{box-sizing:border-box}body{margin:0;font-family:'Jua',-apple-system,'Apple SD Gothic Neo',sans-serif;background:linear-gradient(#FFF3D6,#FFD9A8);color:#3D2C1E;min-height:100vh}
+.wrap{max-width:520px;margin:0 auto;padding:22px 16px 40px}
+header{text-align:center}header img{width:96px;height:96px;border-radius:50%;border:4px solid #fff;box-shadow:0 4px 0 rgba(0,0,0,.08)}
+h1{font-size:30px;margin:8px 0 2px;color:#FF7A59}p.sub{margin:0 0 14px;font-size:16px}
+.search{display:flex;gap:8px;margin:12px 0 18px}.search input{flex:1;min-width:0;font:inherit;font-size:24px;padding:12px 16px;border-radius:16px;border:3px solid #3D2C1E;text-align:center;letter-spacing:4px}
+.search button{font:inherit;font-size:20px;padding:0 18px;border-radius:16px;border:3px solid #3D2C1E;background:#FF7A59;color:#fff}
+a.item{display:flex;align-items:center;gap:12px;background:#fff;border:3px solid #3D2C1E;border-radius:20px;padding:10px;margin:10px 0;text-decoration:none;color:inherit;box-shadow:0 4px 0 rgba(61,44,30,.15)}
+a.item.hit{background:#FFF0A8;outline:4px solid #FFC107}
+.no{font-size:30px;color:#FF7A59;min-width:74px;text-align:center}.thumb{width:64px;height:64px;border-radius:12px;object-fit:cover;background:#eee}
+.t{flex:1;min-width:0}.t b{display:block;font-size:20px}.t span{font-size:14px;opacity:.75}.go{font-size:16px;background:#3D2C1E;color:#fff;border-radius:12px;padding:8px 10px;white-space:nowrap}
+footer{margin-top:22px;font-size:12px;opacity:.7;text-align:center;line-height:1.6}
+.big{display:block;text-align:center;font-size:24px;background:#FF7A59;color:#fff;border:3px solid #3D2C1E;border-radius:18px;padding:16px;margin:18px 0;text-decoration:none}
+</style><script>
+function go(){var v=(document.getElementById('q').value||'').replace(/\D/g,'');if(!v)return;v=('000'+v).slice(-3);
+var e=document.getElementById('n'+v);document.querySelectorAll('.item').forEach(function(x){x.classList.remove('hit')});
+if(e){e.classList.add('hit');e.scrollIntoView({behavior:'smooth',block:'center'});}else{alert(v+'번 제품이 아직 없어요');}}
+document.addEventListener('DOMContentLoaded',function(){var h=(location.hash||'').replace(/\D/g,'');if(h){document.getElementById('q').value=h;go();}});
+</script></head>
+<body><div class="wrap"><header><img src="icon.png" alt="살림치트키"><h1>살림치트키 제품 바로가기</h1><p class="sub">영상 속 번호를 눌러 주세요 👇</p></header><div class="search"><input id="q" inputmode="numeric" maxlength="3" placeholder="001" onkeydown="if(event.key==='Enter')go()"><button onclick="go()">찾기</button></div><a class="item" id="n001" href="https://link.coupang.com/a/hxFzgtgUUK" rel="sponsored nofollow noopener" target="_blank"><span class="no">001</span><img class="thumb" src="img/001.jpg" alt="" loading="lazy"><span class="t"><b>계란 보관함</b><span>비케이 스타일 4단 슬라이딩 계란 보관함 30구</span></span><span class="go">쿠팡 보기 ›</span></a><footer>이 페이지는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.<br>살림치트키 · 유튜브·인스타·스레드 @salimcheatkey_kr</footer></div></body></html>
